@@ -37,7 +37,7 @@ header{
 
 header > h1 {
     color: white;
-    font-family: var(--font-android);
+    font-family: var(--fonte-destaque);
 }
 
 header > p {
@@ -49,7 +49,24 @@ nav {
 }
 
 main {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 0cm auto;
+    padding: 20px;
     background-color: white;
+    margin-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main h1{
